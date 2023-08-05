@@ -77,7 +77,8 @@ body {
 }
 
 .main-board {
-    background: var(--navyblue);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     /*width: 1440px;
     height: 600px;*/
     flex-shrink: 0;
