@@ -301,6 +301,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     display: flex; 
     justify-content: center; 
     gap: 24px;
+    padding-top: 8px;
 }
 
 .icons_list {
@@ -323,7 +324,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     background-color: #404bbf; 
 }
 
-.icons_link :focus {
+.icons_link:focus {
     background-color: #404bbf; 
 }
 
