@@ -29,6 +29,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--slate);
     background-color: #FFFFFF;
+    color: #8e8f99;
 }
 
 :root {
@@ -38,6 +39,7 @@ body {
     --cornflower: #E7E9FC;
     --slate: #434455;
     --white: #FFF;
+    --grey: #8e8f99;
 }
 
 .list {
@@ -277,6 +279,56 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
     text-align: center; 
+}
+
+/*------------------------------section 5-------------------------------*/
+
+.section_costomers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.title_costomers {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--navyblue);
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+.menu_costomers {
+    display: flex;
+    gap: 24px;
+}
+
+.list_costomers {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.link_costomers :{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey);
+}
+
+.link_costomers:hover {
+    border-color: #404bbf; 
+    color: #404bbf;
+}
+
+.link_costomers:focus {
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
+.list_costomers_icons {
+    fill: currentColor;
 }
 
 /*------------------------------footer html-------------------------------*/
