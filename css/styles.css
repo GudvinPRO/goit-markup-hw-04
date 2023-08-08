@@ -522,8 +522,8 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     height: 72px;
     align-items: center;
     flex-shrink: 0;*/
-   /* width: 1158px;
-    margin: 0 auto;*/
+    width: 1158px;
+    margin: 0 auto;
     padding: 0 15px 0 15px;
 }
 
@@ -642,6 +642,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     background: var(--cloud);
     cursor: pointer;
     padding: 12px 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title-button-menu:hover, .title-button-menu:focus {
@@ -669,6 +670,11 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
 
 .list-content {
+    display: block; 
+}
+
+.list-content:hover, .list-content:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .inside_img {
