@@ -521,8 +521,8 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     height: 72px;
     align-items: center;
     flex-shrink: 0;*/
-    width: 1158px;
-    margin: 0 auto;
+   /* width: 1158px;
+    margin: 0 auto;*/
     padding: 0 15px 0 15px;
 }
 
