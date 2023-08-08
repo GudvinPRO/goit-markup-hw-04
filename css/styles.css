@@ -386,6 +386,9 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 
 /*------------------------------footer html-------------------------------*/
 
+.footer_title_container {
+    
+}
 .container-footer {
     padding-top: 100px;
     padding-left: 156px;
