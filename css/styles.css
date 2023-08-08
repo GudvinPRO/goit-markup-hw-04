@@ -389,12 +389,13 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 .footer_title_container {
     display: flex;
     align-items: baseline;
-    padding-left: 156px;
+    
 }
 
 .container-footer {
     padding-top: 100px;
     margin-right: 120px;
+    margin-left: 156px;
 }
 
 .footer-logotype {
