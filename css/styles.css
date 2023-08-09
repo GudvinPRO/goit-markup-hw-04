@@ -680,9 +680,8 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
 }
-/*
+
 .list-content:hover .title-images-menu-paragraph {
     transform: translateY(0%);
 }
@@ -690,7 +689,6 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 .list-content:focus .title-images-menu-paragraph {
     transform: translateY(0%);
 }
-*/
 
 .card_images {
     position: relative;
