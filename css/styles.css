@@ -686,7 +686,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     transform: translateY(0%);
 }
 
-.list-content:focus .card_images_paragraph {
+.card_images_paragraph:focus {
     transform: translateY(0%);
 }
 
