@@ -674,7 +674,8 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
 
 .list-content {
-    display: block; 
+    display: block;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .list-content:hover, .list-content:focus {
