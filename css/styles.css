@@ -682,11 +682,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.card_images_paragraph:hover {
-    transform: translateY(0%);
-}
-
-.list-content:focus .card_images_paragraph {
+.card_images_paragraph:hover, .card_images_paragraph:focus {
     transform: translateY(0%);
 }
 
