@@ -762,7 +762,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     
     /*-----------------------------modal---------------------------*/
 
-.modal_section {
+.backdrop {
     position: fixed;
     top: 0; 
     left: 0;
@@ -814,4 +814,10 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 
 .icon-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
